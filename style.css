@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 24px;
+  background: #f4f4f4;
+  color: #222;
+}
+main {
+  max-width: 900px;
+  margin: auto;
+}
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 18px 0;
+}
+button {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+canvas {
+  display: block;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  background: white;
+}
+.note {
+  color: #666;
+  font-size: 0.9rem;
+}

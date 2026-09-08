@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Sketch Creator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Photo Sketch Creator</h1>
+    <p>Upload a photo and create a simple pencil-style sketch in your browser.</p>
+
+    <input id="upload" type="file" accept="image/*">
+    <div class="controls">
+      <label>Strength <input id="strength" type="range" min="1" max="100" value="55"></label>
+      <button id="process">Create Sketch</button>
+      <button id="download">Download PNG</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <p class="note">All processing happens locally in your browser.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
